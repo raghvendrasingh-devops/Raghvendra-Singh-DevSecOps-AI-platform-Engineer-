@@ -44,12 +44,12 @@
 
 ```yaml
 # ===================================================================================
-# THE BHAKUA ENGINEER CORE MANIFESTO
+# ENTERPRISE DEVSECOPS & CLOUD ARCHITECTURE MANIFESTO
 # ===================================================================================
 engineer:
   name: "Raghvendra Singh"
   title: "Principal DevSecOps Architect & Autonomous AI Platform Strategist"
-  alias: "The Bhakua Engineer" # In the trenches, turning operational chaos into bulletproof code
+  specialization: "Enterprise Cloud Landing Zones, Zero-Trust Infrastructure & Agentic AI Ops"
   tenets:
     - "Automate everything that moves; codify everything that breathes."
     - "Zero Trust is not an option; it is the default posture."
