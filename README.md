@@ -60,6 +60,17 @@ engineer:
 
 ---
 
+## 🌟 Featured Enterprise Architecture Repositories
+
+| Repository | Focus & Architecture Tier | Tech Stack & Guardrails |
+| :--- | :--- | :--- |
+| 🏢 [**Enterprise-Azure-IaaS-Landing-Zone**](https://github.com/raghvendrasingh-devops/Enterprise-Azure-IaaS-Landing-Zone) | **IaaS Compute & Hub-Spoke**: 3-Tier VMSS across AZ 1/2/3, Application Gateway WAF v2, Internal Load Balancers, Azure Firewall Premium, Bastion & Disaster Recovery (ASR). | `Terraform` `VMSS` `Azure Firewall` `App Gateway` `ASR` `UDRs` |
+| ☁️ [**Enterprise-Azure-PaaS-Landing-Zone**](https://github.com/raghvendrasingh-devops/Enterprise-Azure-PaaS-Landing-Zone) | **Cloud-Native PaaS & Serverless**: Azure App Services, Serverless Functions, API Management (APIM), Private Link Only, Azure SQL & Cosmos DB. | `Terraform` `App Services` `Private Link` `APIM` `Azure SQL` `Cosmos DB` |
+| 🤖 [**AI-Agentic-DevOps-Autonomous-SRE-Platform**](https://github.com/raghvendrasingh-devops/AI-Agentic-DevOps-Autonomous-SRE-Platform) | **Autonomous Agentic AI for Cloud Ops**: Live SRE Incident Triager, KQL Automated Diagnostics, LLM IaC PR Reviewer, and Self-Healing Automation. | `Python 3.11` `LangChain` `OpenAI API` `KQL` `Self-Healing` |
+| 🚀 [**Raghvendra-Singh-DevSecOps-AI-platform-Engineer-**](https://github.com/raghvendrasingh-devops/Raghvendra-Singh-DevSecOps-AI-platform-Engineer-) | **Master Cloud Portfolio**: Complete CAF Enterprise Management Groups, 100+ App Mass Migration Framework, FinOps Playbooks, and DevSecOps CI/CD. | `Azure CAF` `DevSecOps` `FinOps` `6R Migration` `AKS` `GitOps` |
+
+---
+
 <div align="center">
   <h2>📊 Real-Time Operational Telemetry & GitHub HUD</h2>
 
