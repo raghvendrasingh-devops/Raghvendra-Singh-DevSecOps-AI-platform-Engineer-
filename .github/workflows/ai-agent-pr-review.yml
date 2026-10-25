@@ -1,0 +1,29 @@
+name: "Agentic AI Pull Request Reviewer"
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  agentic-ai-review:
+    name: "Agentic AI IaC Review"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Agent Dependencies
+        run: pip install -r ai_agentic_ops/requirements.txt
+
+      - name: Run Agentic AI Reviewer
+        run: |
+          python ai_agentic_ops/iac_pr_reviewer_agent.py
